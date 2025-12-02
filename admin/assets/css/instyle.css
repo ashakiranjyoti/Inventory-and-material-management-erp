@@ -1,0 +1,38 @@
+/* Table setup */
+table {
+    width: 100%;
+    border-collapse: collapse;  /* Collapse borders to form a grid structure */
+    border-spacing: 0;  /* Ensures there's no gap between cells */
+}
+
+/* Header and table cell padding */
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;  /* Border to form the grid for columns */
+}
+
+/* Header row styling */
+th {
+    background-color: #2a5d63;  /* Header background color */
+    color: #FFFFFF;  /* Header text color */
+}
+
+/* Row backgrounds */
+tr:nth-child(even) {
+    background-color: #cbecf5;  /* Light blue for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #F9F9F9;  /* Light grey for odd rows */
+}
+
+/* Horizontal line between rows (only in tbody) */
+tbody tr {
+    border-bottom: 1px solid #000;  /* Add horizontal line between each row */
+}
+
+/* Optional: Remove border at the bottom of the last row */
+tr:last-child {
+    border-bottom: none;
+}

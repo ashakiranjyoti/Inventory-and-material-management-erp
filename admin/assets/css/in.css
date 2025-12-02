@@ -1,0 +1,18 @@
+/* Ensure that the dynamic rows are aligned horizontally */
+.dynamic-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.dynamic-row .col {
+    margin-bottom: 10px;
+}
+
+.dynamic-row .form-control {
+    width: 100%;
+}
+
+.dynamic-row .remove-row {
+    margin-top: 26px; /* Align the Remove button with the input fields */
+}

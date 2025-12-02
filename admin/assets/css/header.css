@@ -1,0 +1,41 @@
+/* General Header Styles for Asset Management Page */
+.asset-management-header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    padding: 0 15px; /* Adjust padding as needed */
+}
+
+.asset-management-header .top-left, 
+.asset-management-header .top-right {
+    display: flex;
+    align-items: center;
+}
+
+.asset-management-header .header-center {
+    flex: 1;
+    text-align: center;
+}
+
+.asset-management-header .header-center h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+}
+
+/* Responsive Styles for Asset Management Page */
+@media (max-width: 768px) {
+    .asset-management-header .header-container {
+        flex-direction: column; /* Stack items vertically */
+    }
+    
+    .asset-management-header .top-left, 
+    .asset-management-header .top-right {
+        width: 100%;
+        justify-content: center; /* Center items within their sections */
+    }
+    
+    .asset-management-header .header-center {
+        margin-top: 15px; /* Space between center and top sections */
+    }
+}
