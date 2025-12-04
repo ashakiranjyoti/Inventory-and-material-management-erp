@@ -65,27 +65,6 @@ This is a **portfolio project** demonstrating ERP inventory management capabilit
 - **Icons:** Font Awesome
 - **Development:** XAMPP/LAMP
 
-## 📁 Project Structure
-```
-inventory-management-system/
-├── admin/              # Main application directory
-│   ├── index.php      # Login page
-│   ├── dashboard.php  # Main dashboard
-│   ├── inward-*.php   # Inward module
-│   ├── outward-*.php  # Outward module
-│   ├── report-*.php   # Reporting module
-│   ├── includes/      # Shared components
-│   │   ├── header.php
-│   │   ├── sidebar.php
-│   │   ├── footer.php
-│   │   ├── dbconnection.php
-│   │   └── functions.php
-│   └── TCPDF-main/    # PDF library
-├── database/
-│   └── schema.sql     # Database structure
-├── .gitignore
-└── README.md
-```
 
 ## 🚀 Installation
 
