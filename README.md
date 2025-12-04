@@ -75,23 +75,6 @@ This is a **portfolio project** demonstrating ERP inventory management capabilit
 - XAMPP/WAMP (for local development)
 
 
-4. **Set Permissions** (Linux/Mac)
-```bash
-   chmod 755 -R admin/
-   chmod 777 admin/uploads/  # If you have uploads
-```
-
-5. **Access Application**
-```
-   http://localhost/inventory-management-system/admin/
-```
-
-6. **Default Login** (Update after first login!)
-```
-   Username: admin
-   Password: admin123
-```
-
 ## 📊 Database Schema
 
 Key tables:
