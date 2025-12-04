@@ -74,32 +74,6 @@ This is a **portfolio project** demonstrating ERP inventory management capabilit
 - Apache/Nginx web server
 - XAMPP/WAMP (for local development)
 
-### Setup Steps
-
-1. **Clone the repository**
-```bash
-   git clone https://github.com/yourusername/inventory-management-system.git
-   cd inventory-management-system
-```
-
-2. **Database Setup**
-```sql
-   -- Create database
-   CREATE DATABASE inventory_system;
-   
-   -- Import schema
-   mysql -u root -p inventory_system < database/schema.sql
-```
-
-3. **Configure Database Connection**
-   
-   Update `admin/includes/dbconnection.php`:
-```php
-   $servername = "localhost";
-   $username = "root";
-   $password = "your_password";
-   $dbname = "inventory_system";
-```
 
 4. **Set Permissions** (Linux/Mac)
 ```bash
