@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $cat_name = $_POST['cat_name'];
     // $des = $_POST['des'];
 
-    // Check if category already exists
+    // Check if category already exist
     $checkQuery = mysqli_query($con, "SELECT * FROM tblcat WHERE cat_name='$cat_name'");
     
     if (mysqli_num_rows($checkQuery) > 0) {
