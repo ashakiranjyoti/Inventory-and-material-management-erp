@@ -124,7 +124,7 @@ if (isset($_POST['submit'])) {
                 </div>
             </div>
         </div><!-- .animated -->
-    </div><!-- .content -->
+    </div> <!-- .content -->
     <div class="clearfix"></div>
     <?php include_once('includes/footer.php'); ?>
     </div>
