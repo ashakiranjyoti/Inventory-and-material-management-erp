@@ -127,7 +127,7 @@ if ($_GET['del']) {
                     </div>
                 </div>
             </div>
-        </div><!-- .animated -->
+        </div>
     </div><!-- .content -->
     <div class="clearfix"></div>
     <?php include_once('includes/footer.php'); ?>
