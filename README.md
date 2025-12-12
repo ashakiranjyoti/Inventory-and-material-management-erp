@@ -145,6 +145,6 @@ Built during professional work experience to demonstrate ERP module development 
 
 **Note to Recruiters:** This project showcases my ability to build complete ERP modules with complex business logic, real-time calculations, and comprehensive reporting. Happy to discuss the architecture and implementation in detail during interviews.
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img width="1908" height="894" alt="screenshot-1765284160681" src="https://github.com/user-attachments/assets/d0ef6a84-b057-4965-9500-78dd0e1afe6d" />
 
