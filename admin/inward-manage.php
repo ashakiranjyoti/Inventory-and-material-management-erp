@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
 if (isset($_GET['del'])) {
     $sid = $_GET['del'];
 
-    // Just delete the inward record
+    // Just delete the inward record only
     mysqli_query($con, "DELETE FROM tblinward WHERE sno = '$sid'");
     echo "<script>window.location.href='inward-manage.php'</script>";
 }
