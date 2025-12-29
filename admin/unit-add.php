@@ -24,7 +24,7 @@ if (isset($_POST['submit'])) {
 
 <head>
     <title>Inventory Management System - Unit</title>
-    <!-- <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png"> -->
+    <!-- <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">> -->
     <link rel="icon" type="image/png" href="images/logo-Inventory Management System.png"/>
     <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
