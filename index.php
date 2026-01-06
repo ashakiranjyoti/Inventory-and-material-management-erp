@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         
-        <title>|| Home Page</title>
+        <title>Asset Management || Home Page</title>
  
     <link rel="icon" type="image/png" href="images/logo-Inventory Management System.png"/>
     <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
