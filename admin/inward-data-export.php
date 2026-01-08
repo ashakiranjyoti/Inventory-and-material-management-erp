@@ -12,7 +12,7 @@ echo '<head>';
 echo '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">';
 echo '<style>';
 echo 'body { font-family: Calibri, sans-serif; }';
-echo 'h1, h2 { text-align: center; }'; 
+echo 'h1, h2 { text-align: center; }';
 echo 'p { text-align: center; margin-bottom: 20px; }'; 
 echo 'table { width: 100%; border-collapse: collapse; }';
 echo 'th, td { padding: 8px; border: 1px solid #000; }';
