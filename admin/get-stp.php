@@ -11,7 +11,6 @@ if (isset($_POST['type'])) {
             'subtype_name' => $row['subtype_name']
         );
     }
-
     echo json_encode($subtypes);
 }
 ?>
