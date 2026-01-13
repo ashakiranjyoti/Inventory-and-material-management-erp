@@ -129,8 +129,7 @@ a {
                             <input type="password" class="form-control" name="pass" placeholder="Password" required="true">
                         </div>
                         <div class="checkbox">
-                            
-                            
+                          
 
                         </div>
                         <button type="submit" name="login" class="btn  btn-flat m-b-30 m-t-30" style="background-color: #2a5d63; color:white" >Log in</button>
