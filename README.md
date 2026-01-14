@@ -136,7 +136,6 @@ This project is for **portfolio and educational purposes only**.
 - LinkedIn: [https://www.linkedin.com/in/ashakiran-jyoti-b3489b252]
 - Email: ashakirandjoti5501@gmail.com
 
-
 ## 🙏 Acknowledgments
 
 Built during professional work experience to demonstrate ERP module development capabilities.
