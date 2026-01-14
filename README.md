@@ -132,7 +132,7 @@ This project is for **portfolio and educational purposes only**.
 
 ## 👤 Author
 
-**[Your Name]**
+**[Ashakiran Jyoti]**
 - LinkedIn: [Your Profile]
 - Email: your.email@example.com
 - Portfolio: [Your Website]
