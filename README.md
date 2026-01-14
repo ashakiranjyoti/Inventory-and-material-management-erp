@@ -133,9 +133,9 @@ This project is for **portfolio and educational purposes only**.
 ## 👤 Author
 
 **[Ashakiran Jyoti]**
-- LinkedIn: [Your Profile]
-- Email: your.email@example.com
-- Portfolio: [Your Website]
+- LinkedIn: [https://www.linkedin.com/in/ashakiran-jyoti-b3489b252]
+- Email: ashakirandjoti5501@gmail.com
+
 
 ## 🙏 Acknowledgments
 
