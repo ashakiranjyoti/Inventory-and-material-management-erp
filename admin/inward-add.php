@@ -193,7 +193,8 @@ if ($checkResult && mysqli_num_rows($checkResult) > 0) {
                                     </div>
                                     <div class="row form-group">
                                         <div class="col-md-3"><label for="time" class="form-control-label">Date & Time</label></div>
-                                        <div class="col-md-9"><input type="datetime-local" id="time" name="time" class="form-control" required value="<?php echo htmlspecialchars($currentDateTime); ?>"></div>
+                                        <div class="col-md-9"><input type="datetime-local" id="time" name="time" class="form-control" required min="1900-01-01T00:00"
+    max="2100-12-31T23:59" value="<?php echo htmlspecialchars($currentDateTime); ?>"></div>
                                     </div>
 
                                     <!-- Dynamic Data -->
