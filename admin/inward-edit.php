@@ -238,7 +238,8 @@ $row = mysqli_fetch_array($ret);
                                     <?php endif; ?>
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label for="text-input" class=" form-control-label">Date & Time</label></div>
-                                        <div class="col-12 col-md-9"><input type="datetime-local" id="time" name="time" class="form-control" placeholder="Date & Time" required="true" value="<?php echo $row['time']; ?>"></div>
+                                        <div class="col-12 col-md-9"><input type="datetime-local" id="time" name="time" class="form-control" placeholder="Date & Time" required="true" min="1900-01-01T00:00"
+    max="2100-12-31T23:59" value="<?php echo $row['time']; ?>"></div>
                                     </div>
 
                                 <?php } ?>
