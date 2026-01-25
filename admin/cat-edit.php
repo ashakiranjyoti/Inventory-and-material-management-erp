@@ -10,7 +10,6 @@ if (isset($_POST['submit'])) {
     $cat_name = $_POST['cat_name'];
     // $des = $_POST['des'];
     $eid = $_GET['editid'];
-
     $query = mysqli_query($con, "UPDATE tblcat SET cat_name='$cat_name' WHERE sno='$eid'");
     if ($query) {
         echo "<script>alert('Details updated');</script>";
