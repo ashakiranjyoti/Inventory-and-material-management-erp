@@ -103,7 +103,7 @@ if (isset($_GET['del'])) {
                                 <abbr title="Import In Excel" style="cursor: pointer" class="abbr_class"><a href="inward-data-export.php?date=<?php echo $fdate; ?>">EXCEL</a></abbr>
                             </span>
                             <span style="float:right;">
-                                <abbr title="Add New" style="cursor: pointer" class="abbr_class"><a href="inward-add.php"><img src="images/add.png" class="image_safe" style="width:30px;height:30px;"></a></abbr>
+                                <abbr title="Add New" style="cursor: pointer" class="abbr_class"><a href="inward-add.php">ADD</a></abbr>
                             </span>
 
                         </div>
