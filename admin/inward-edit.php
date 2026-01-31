@@ -45,7 +45,6 @@ if (isset($_POST['submit'])) {
         exit();
     }
 }
-
 // Fetch Record for Form Display
 $ret = mysqli_query($con, "SELECT * FROM tblinward WHERE sno='$eid'");
 $row = mysqli_fetch_array($ret);
